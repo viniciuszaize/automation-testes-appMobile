@@ -6,6 +6,9 @@ Este projeto documenta a realização de **testes exploratórios** em um aplicat
 
 - **Contato**: viniciuszaize1997@gmail.com
 
+## Repositório no GitLab Pipeline
+https://gitlab.com/automation-tests8370041/AppMobile.git
+
 ## Objetivos dos Testes
 
 Os testes exploratórios foram realizados com os seguintes objetivos:
