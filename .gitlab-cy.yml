@@ -1,0 +1,22 @@
+stages:
+  - test
+
+
+test_job:
+  stage: test
+  script:
+    - npm install 
+    - npm test    
+  only:
+    - merge_requests
+    - branches
+  except:
+    - master    
+
+
+variables:
+  GIT_DEPTH: "1" 
+
+cache:
+  paths:
+    - node_modules/
