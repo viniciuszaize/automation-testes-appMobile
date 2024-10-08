@@ -12,13 +12,14 @@ Os testes exploratórios foram realizados com os seguintes objetivos:
 
 - **Cobertura Completa**: Testar todas as funções disponíveis no aplicativo, garantindo que cada fluxo de usuário fosse validado.
 - **Cenários de Erro**: Verificar como o aplicativo se comporta em situações de erro, garantindo que mensagens de erro apropriadas sejam exibidas e que a experiência do usuário não seja comprometida.
-- **Manutenção e Escalabilidade**: Implementar helpers e hooks que tornam o escopo de teste mais independente, diminuindo a manutenção e garantido a vida útil dos testes.
+- **Manutenção e Escalabilidade**: Implementar helpers e hooks que tornam o escopo de teste mais independente, diminuindo a manutenção e garantido a vida útil dos testes e contamos com uma pipeline configurada para garantir que a cada commit ou merge request o codigo esteja funcional.
 
 ## Estrutura do Projeto
 
 - **test/**: Contém os testes automatizados que realizam as validações.
 - **helpers/**: Contém funções auxiliares que ajudam na execução dos testes.
 - **hooks/**: Contém hooks personalizados que permitem configurar e gerenciar o ambiente de testes.
+- **CI/CD**: Contém um arquvivo configurado para rodar pipelines para garantir qualidade dos testes 
 
 ## Ferramentas Utilizadas
 
