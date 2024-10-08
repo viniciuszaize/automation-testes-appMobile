@@ -32,9 +32,10 @@ Os testes exploratórios foram realizados com os seguintes objetivos:
 Os testes exploratórios abrangeram os seguintes cenários:
 
 1. **Tela Inicial**: Validação dos principais elementos e funcionalidades disponíveis na tela inicial do aplicativo.
-2. **Funcionalidades do App**: Teste de cada funcionalidade disponível, assegurando que funcionem conforme o esperado.
-3. **Cenários de Erro**: Testes realizados para induzir erros e verificar o tratamento e mensagens de erro exibidas.
-4. **Tela "Fale Conosco"**: Testes na tela de contato, garantindo que as interações com o usuário sejam intuitivas e funcionais.
+2. **Tela "Login,Cadastro,Redefinição de Senha e informações do APP "**: Testes em todas as tela, garantindo que as interações com o usuário sejam intuitivas e funcionais.
+3. **Funcionalidades do App**: Teste de cada funcionalidade disponível, assegurando que funcionem conforme o esperado.
+4. **Cenários de Erro**: Testes realizados para induzir erros e verificar o tratamento e mensagens de erro exibidas.
+
 
 ## Execução dos Testes
 
