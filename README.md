@@ -1,6 +1,6 @@
-# Testes Exploratório de Aplicativo Android
+# Testes Exploratório de Aplicativo Android (BANCO CARREFOUR)
 
-Este projeto documenta a realização de **testes exploratórios** em um aplicativo Android, utilizando um emulador para garantir que todas as funcionalidades disponíveis fossem testadas. O foco foi desde a tela inicial até a tela "de mais informações", cobrindo cenários de erro e implementando helpers e hooks para aumentar a independência dos testes.
+Este projeto documenta a realização de **testes exploratórios** em um aplicativo Android de banco, utilizando um emulador para garantir que todas as funcionalidades disponíveis fossem testadas. O foco foi desde a tela inicial até a tela "de mais informações", cobrindo cenários de erro e implementando helpers e hooks para aumentar a independência dos testes.
 
 ## Contato
 
