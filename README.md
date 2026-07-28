@@ -8,8 +8,6 @@ This project documents the execution of **exploratory tests** on an Android bank
 
 ## GitLab Repository & CI Pipeline
 
-https://gitlab.com/automation-tests8370041/AppMobile.git
-
 ## Testing Objectives
 
 The exploratory tests were performed with the following goals:
