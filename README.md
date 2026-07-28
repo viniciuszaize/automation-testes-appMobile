@@ -1,49 +1,50 @@
-# Testes Exploratório de Aplicativo Android
+# Android Application Exploratory Testing
 
-Este projeto documenta a realização de **testes exploratórios** em um aplicativo Android de banco(CARREOFOUR), utilizando um emulador android  para garantir que todas as funcionalidades disponíveis fossem testadas. O foco foi desde a tela inicial até a tela "de mais informações", cobrindo cenários de erro e implementando helpers e hooks para aumentar a independência dos testes.
+This project documents the execution of **exploratory tests** on an Android banking application (Carrefour Bank), using an Android emulator to ensure that all available features were tested. The testing covered the application from the home screen to the "More Information" section, including error scenarios. Helpers and hooks were also implemented to improve test independence and maintainability.
 
-## Contato
+## Contact
 
-- **Contato**: viniciuszaize1997@gmail.com
+* **Email**: [viniciuszaize1997@gmail.com](mailto:viniciuszaize1997@gmail.com)
 
-## Repositório no GitLab Pipeline
+## GitLab Repository & CI Pipeline
+
 https://gitlab.com/automation-tests8370041/AppMobile.git
 
-## Objetivos dos Testes
+## Testing Objectives
 
-Os testes exploratórios foram realizados com os seguintes objetivos:
+The exploratory tests were performed with the following goals:
 
-- **Cobertura Completa**: Testar todas as funções disponíveis no aplicativo, garantindo que cada fluxo de usuário fosse validado.
-- **Cenários de Erro**: Verificar como o aplicativo se comporta em situações de erro, garantindo que mensagens de erro apropriadas sejam exibidas e que a experiência do usuário não seja comprometida.
-- **Manutenção e Escalabilidade**: Implementar helpers e hooks que tornam o escopo de teste mais independente, diminuindo a manutenção e garantido a vida útil dos testes e contamos com uma pipeline configurada para garantir que a cada commit ou merge request o codigo esteja funcional.
+* **Complete Coverage**: Validate all available features and user flows within the application.
+* **Error Scenarios**: Verify how the application behaves in error situations, ensuring that appropriate error messages are displayed and the user experience remains consistent.
+* **Maintainability and Scalability**: Implement helpers and hooks to make the test suite more independent, reducing maintenance efforts and improving long-term reliability. A CI/CD pipeline was also configured to ensure that every commit and merge request is automatically validated.
 
-## Estrutura do Projeto
+## Project Structure
 
-- **test/**: Contém os testes automatizados que realizam as validações.
-- **helpers/**: Contém funções auxiliares que ajudam na execução dos testes.
-- **hooks/**: Contém hooks personalizados que permitem configurar e gerenciar o ambiente de testes.
-- **CI/CD**: Contém um arquvivo configurado para rodar pipelines para garantir qualidade dos testes 
+* **test/**: Contains the automated test cases.
+* **helpers/**: Contains helper functions used throughout the test suite.
+* **hooks/**: Contains custom hooks for configuring and managing the test environment.
+* **CI/CD**: Contains the pipeline configuration used to automatically validate the test suite.
 
-## Ferramentas Utilizadas
+## Technologies Used
 
-- **WebDriverIO**: Framework utilizado para automação de testes de interface do usuário.
-- **Appium**: Ferramenta para automação de aplicativos móveis.
-- **Emulador Android**: Utilizado para simular dispositivos Android e testar a aplicação.
+* **WebDriverIO**: Framework used for UI test automation.
+* **Appium**: Tool used for mobile application automation.
+* **Android Emulator**: Used to simulate Android devices and execute the tests.
 
-## Cenários de Teste
+## Test Scenarios
 
-Os testes exploratórios abrangeram os seguintes cenários:
+The exploratory tests covered the following scenarios:
 
-1. **Tela Inicial**: Validação dos principais elementos e funcionalidades disponíveis na tela inicial do aplicativo.
-2. **Tela "Login,Cadastro,Redefinição de Senha e informações do APP "**: Testes em todas as tela, garantindo que as interações com o usuário sejam intuitivas e funcionais.
-3. **Funcionalidades do App**: Teste de cada funcionalidade disponível, assegurando que funcionem conforme o esperado.
-4. **Cenários de Erro**: Testes realizados para induzir erros e verificar o tratamento e mensagens de erro exibidas.
+1. **Home Screen**: Validation of the main UI elements and features available on the application's home screen.
+2. **Login, Registration, Password Reset, and App Information Screens**: Validation of all user interactions to ensure the application behaves as expected.
+3. **Application Features**: Testing of every available feature to verify correct functionality.
+4. **Error Scenarios**: Execution of negative test cases to validate the application's error handling and displayed messages.
 
+## Running the Tests
 
-## Execução dos Testes
-
-Para executar os testes, utilize os seguintes comandos no terminal:
+To run the test suite, execute the following commands:
 
 ```bash
-npm install  # Instala as dependências
-npx wdio wdio.conf.js  # Executa os testes com WebDriverIO
+npm install          # Install project dependencies
+npx wdio wdio.conf.js  # Run the WebDriverIO test suite
+```
